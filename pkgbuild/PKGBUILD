@@ -9,7 +9,7 @@ url="https://github.com/biglinux/$pkgname"
 license=('GPL')
 depends=('libxpm')
 provides=("$pkgname")
-conflicts=('big-skel')
+#conflicts=('big-skel')
 source=("git+${url}.git")
 md5sums=('SKIP')
 if [ -e "${pkgname}.install" ];then
